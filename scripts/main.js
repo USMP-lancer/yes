@@ -20,7 +20,14 @@ Events.on(ClientLoadEvent, () => {
 				Core.app.post(() => {
 					Core.app.post(() => {
 						const dialog = Core.scene.dialog;
-						dialog.cont.cells.get(1).get().text = "DeltaNedas/no";
+						dialog.cont.cells.get(1).get().text = "sk7725/BetaMindy";
+						dialog.buttons.cells.get(1).get().fireClick();
+						// hide ugly loading dialog
+						Core.app.post(() => {
+							Vars.ui.loadfrag.hide();
+							Vars.mobile = mobile;
+dialog.cont.cells.get(1).get().text = "TheSaus/DubiousWhiteLiquidustry";
+// do not forgot the n u t
 						dialog.buttons.cells.get(1).get().fireClick();
 						// hide ugly loading dialog
 						Core.app.post(() => {
